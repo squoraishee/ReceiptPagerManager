@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/option"
+            android:icon="@drawable/icon_lock"
+            android:title="smiley"
+            android:showAsAction="always"/>
+    <!-- Why the hell would we use the app name space if the app namespace forces the icon to be in the
+    overlow menu where as the android name spaces put its in the right place-->
+    <item android:id="@+id/option_2"
+        android:icon="@drawable/icon_lock"
+        android:title="smiley"
+        android:showAsAction="never"/>
+
+
+</menu>

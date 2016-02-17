@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/opton_background_color"
+    tools:ignore="MissingPrefix">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/toggle_option_text"
+        android:layout_weight="0.20"
+        fontPath="Raleway-Medium.ttf"/>
+
+    <!-- The match_parent for width and heigh cause the layout weight to be respected -->
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toggle_option_switch"
+        android:layout_weight="0.80" />
+
+</LinearLayout>

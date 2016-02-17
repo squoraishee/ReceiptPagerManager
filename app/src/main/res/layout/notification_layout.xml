@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:background="@color/opton_background_color">
+    <TextView
+        android:id="@+id/receipt_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You have a new receipt"
+        android:layout_weight=".8"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <Button
+        android:id="@+id/goto_grid_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight=".2"
+        android:text="Open Grid" />
+</LinearLayout>
